@@ -1,0 +1,50 @@
+body {
+    background-color: #1B244A;
+    margin: auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    background-color: #1B244A;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    border: 1.5px #9AABD8 solid;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.resetButton{
+    text-align: center;
+    padding: 5px;
+}
+
+.gameReset{
+    margin-top: 350px;
+}
+
+h3{
+    font-family: League Spartan;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+
+h2{
+    font-family: Pixelify Sans, sans-serif;
+    background-color: black;
+    color: red;
+    text-align: center;
+    font-size: 130px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+}
+
