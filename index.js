@@ -41,3 +41,17 @@ function gameReset(){
     pointsGuest = 0
     countElg.textContent = pointsGuest
 }
+
+document.getElementById("home-plus1").addEventListener("click", () => addpointsHome(1))
+document.getElementById("home-plus2").addEventListener("click", () => addpointsHome(2))
+document.getElementById("home-plus3").addEventListener("click", () => addpointsHome(3))
+document.getElementById("home-minus1").addEventListener("click", () => minuspointHome(1))
+document.getElementById("hard-reset-home").addEventListener("click", hardResetHome)
+
+document.getElementById("guest-plus1").addEventListener("click", () => addpointsGuest(1))
+document.getElementById("guest-plus2").addEventListener("click", () => addpointsGuest(2))
+document.getElementById("guest-plus3").addEventListener("click", () => addpointsGuest(3))
+document.getElementById("guest-minus1").addEventListener("click", () => minuspointGuest(1))
+document.getElementById("hard-reset-guest").addEventListener("click", hardResetGuest)
+
+document.getElementById("game-reset").addEventListener("click", gameReset)

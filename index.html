@@ -1,35 +1,38 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <div class="container">
-            <div class="home">
-                <h3>BULLS</h3>
-                <h2 id="countel-home">0</h2>
-                <button onclick="addpointsHome(1)">+1</button>
-                <button onclick="addpointsHome(2)">+2</button>
-                <button onclick="addpointsHome(3)">+3</button>
-                <button onclick="minuspointHome(1)">-1</button>
-                <div class="resetButton">
-                    <button onclick="hardResetHome()">Hard Reset</button>
-                </div>
-            </div>
-            <div>
-                <button class="gameReset" onclick="gameReset()">GAME RESET</button>
-            </div>
-            <div>
-                <h3>LAKERS</h3>
-                <h2 id="countel-guest">0</h2>
-                <button onclick="addpointsGuest(1)">+1</button>
-                <button onclick="addpointsGuest(2)">+2</button>
-                <button onclick="addpointsGuest(3)">+3</button>
-                <button onclick="minuspointGuest(1)">-1</button>
-                <div class="resetButton">
-                    <button onclick="hardResetGuest()">Hard Reset</button>
-                </div>
-            </div>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="home">
+        <h3>BULLS</h3>
+        <h2 id="countel-home">0</h2>
+        <button class="home-plus1">+1</button>
+        <button class="home-plus2">+2</button>
+        <button class="home-plus3">+3</button>
+        <button class="home-minus1">-1</button>
+        <div class="resetButton">
+          <button class="hard-reset-home">Hard Reset</button>
         </div>
-        <script type="module"  src="index.js"></script>
-    </body>
+      </div>
+
+      <div>
+        <button class="game-reset">GAME RESET</button>
+      </div>
+
+      <div>
+        <h3>LAKERS</h3>
+        <h2 id="countel-guest">0</h2>
+        <button class="guest-plus1">+1</button>
+        <button class="guest-plus2">+2</button>
+        <button class="guest-plus3">+3</button>
+        <button class="guest-minus1">-1</button>
+        <div class="resetButton">
+          <button class="hard-reset-guest">Hard Reset</button>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
